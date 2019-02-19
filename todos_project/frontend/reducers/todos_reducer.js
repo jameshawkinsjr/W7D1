@@ -14,6 +14,18 @@ const initialState = {
         body: 'with shampoo',
         done: true
     },
+    3: {
+        id: 2,
+        title: 'wash hair',
+        body: 'with shampoo',
+        done: true
+    },
+    4: {
+        id: 2,
+        title: 'wash dishes',
+        body: 'with dish soap',
+        done: true
+    },
 };
 
 const todosReducer = (state = initialState, action) => {
